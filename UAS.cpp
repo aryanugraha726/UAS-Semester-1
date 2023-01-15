@@ -1,4 +1,4 @@
-#include <stdio.h>   /*contoh program 9.3*/
+#include <stdio.h>   
 #include <conio.h>
 #include <stdlib.h>
 struct Opsi
