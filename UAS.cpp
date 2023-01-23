@@ -83,6 +83,7 @@ void rumus()
 		rms.total=rms.Tjasa+rms.Tsewa;
 		}
 	if(rms.waktu%12!=0){
+                rms.makan=70000;
 		rms.overtime=rms.waktu%12;
 		rms.Tsewa=rms.overtime*(rms.Bsewa*0.1)+(rms.waktu-rms.overtime)/12*rms.Bsewa;
 		rms.Tjasa=rms.Bsopir+rms.makan;
